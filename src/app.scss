@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  font-family: cursive, monospace, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  margin-bottom: 10rem;
+}
+
+input {
+  width: 60vw;
+  padding: 1rem;
+  font-size: 1rem;
+  border-radius: 1rem;
+  margin-bottom: 5rem;
+  cursor: pointer;
+}
